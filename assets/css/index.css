@@ -63,7 +63,12 @@
     width: 300px;
     height: 300px;
 }
-.services .services-grid .grid-item p{
+
+.services .services-grid figure{
+    margin: 0;
+}
+
+.services .services-grid .grid-item figcaption{
     text-align: center;
     color: #6e6e6e;
     margin-top: 0.75rem;
