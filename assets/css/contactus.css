@@ -1,0 +1,76 @@
+@import url(../style.css);
+
+/* Banner */
+
+.contact-banner{
+    background-image: url(../assets/images/about-banner.jpg);
+    background-color: #130135;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    height: 45vh;
+    position: relative;
+}
+
+.contact-banner-container{
+    background-color: #FFFF00CC;
+    padding: 15px 25px;
+    width: 30%;
+    bottom: 0;
+    left: 20%;
+    position: absolute;
+}
+
+.contact-banner-container h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #000;
+    margin: 0;
+}
+
+/* Contactus */
+.contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    height: 19vh;
+
+}
+
+.contactus .contactus-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.contactus .contactus-container h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #1F2937;
+    margin-top: 0;
+}
+
+.contactus .contact-details{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contactus-container .contact-item{
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin-right: 2rem;
+}
+.contactus-container .contact-item p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin: 0 0 0 1rem;
+}
+

@@ -1,0 +1,50 @@
+@import url(../style.css);
+
+/* Banner */
+
+.banner{
+    background-image: url(../images/about-banner.jpg);
+    background-color: #130135;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    height: 45vh;
+    position: relative;
+}
+
+.banner-container{
+    background-color: #FFFF00CC;
+    padding: 15px 25px;
+    width: 30%;
+    bottom: 0;
+    left: 20%;
+    position: absolute;
+}
+
+.banner-container h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #000;
+    margin: 0;
+}
+
+/* About us */
+
+.aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.aboutus .about-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.aboutus p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin: 0 0 1rem;
+}

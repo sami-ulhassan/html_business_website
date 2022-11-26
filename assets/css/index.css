@@ -1,0 +1,145 @@
+@import url(../style.css);
+/* Banner */
+
+.banner{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    height: 50vh;
+}
+
+.banner .banner-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.banner img{
+    width: 50%;
+}
+
+/* Services */
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin: 4rem 0;
+}
+
+.services h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.services .services-grid{
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.services .services-grid .grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services .services-grid .grid-item img{
+    width: 300px;
+    height: 300px;
+}
+.services .services-grid .grid-item p{
+    text-align: center;
+    color: #6e6e6e;
+    margin-top: 0.75rem;
+
+}
+
+@media only screen and (max-width:1680px) {
+    .services .services-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.services .services-grid .grid-item img{
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
+
+/* Quote */
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.quote-container{
+    width: 65%;
+}
+
+.quote .quote-text{
+    font-size: 36px;
+    font-family: 'Roboto-Italic';
+    font-weight: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote .quote-auth{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    text-align: right;
+}
+
+/* Contact */
+
+.contact{
+    background-color: #fff;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact .contact-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 3rem 2rem;
+}
+
+.contact .contact-container h3{
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 6px;
+}
+
+.contact .contact-container p{}
+
+.contact .contact-container .border-white{
+    border: 2px solid #fff;
+    font-size: 22px;
+}
